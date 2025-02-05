@@ -20,7 +20,7 @@ echo "valor de PROGRAMA: ${PROGRAMA:+'tcpdump'} y ahora ${PROGRAMA}"
 # Si la variable está sin definir o vacía se muestra un error. En caso
 # contrario se le asigna un valor por defecto
 # ${variable:?valorpordefecto}
-echo "Valor de: ${EJEMPLO:?'Roberto'} y luego {EJEMPLO}"
+echo "Valor de: ${EJEMPLO:'Roberto'} y luego {EJEMPLO}"
 # Otros
 # ${!prefijo*} : nos devuelve una lista de las variables que comienzan
 # con determinado prefijo.

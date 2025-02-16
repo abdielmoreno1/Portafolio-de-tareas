@@ -4,4 +4,3 @@ read FICHERO
 
 
 ls -al "$FICHERO"
-yt
